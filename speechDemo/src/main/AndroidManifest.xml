@@ -4,8 +4,8 @@
     package="com.iflytek.voicedemo" >
 
     <application
+        android:name="com.example.base.BaseApplication"
         android:icon="@drawable/icon"
-        android:name="SpeechApp"
         android:label="讯飞语音示例"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
         <activity

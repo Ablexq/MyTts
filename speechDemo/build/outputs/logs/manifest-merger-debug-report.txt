@@ -1,336 +1,167 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:2:1-96:12
-INJECTED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:2:1-96:12
-INJECTED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:2:1-96:12
-INJECTED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:2:1-96:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\48f1f8bbce00518c521e3efe50ea75da\AndroidManifest.xml:17:1-22:12
-MERGED from [:base] D:\Users\able\AndroidStudioProjects\MyTts\base\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-30:12
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\81cd7883205592b4223f78c2cf4916c3\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\3411575a141df499e4177e9bab5de589\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\17d415593a2c67315be58f8fb31f6a7c\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\9aace60899a6cba28461971478080995\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\14e20de5db98a2d11790ab87c20593d8\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\86cfcfadcb350824c24489648bea3242\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\99eb71cb15e7ebec0534406214dbbb8c\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\057c865b4e6a0b5958ae30a76f0afd40\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\c267d522145897697c96c1be334ced70\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\85646bad99582551caea1272cc339fa2\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\918bf40f5356b34bf25bafdea603faf9\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\58842e3341d8caf270c42a30ba2a90ea\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\00e7fc69f92b195bce620c9f6f4d1c26\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\1643d35a0b2e4c33cc75b7fe7f88db89\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\087f93e9a025f882cd5f92bfeb7b32d3\AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\5480d0576a1a014def6197c9116ace37\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\able\.gradle\caches\transforms-2\files-2.1\0e1cd016a016e70fdfa55deddb4ba4c8\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\46444661052aca617e8e57f38e120192\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\93a1d01682b57bcf6ce6ed26646b9dd0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\8678bc3e659fe57bcd020a969c982345\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\able\.gradle\caches\transforms-2\files-2.1\c09154d050dde98a468d12aee4880437\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\able\.gradle\caches\transforms-2\files-2.1\64f80e4df7558227e61534f32b0c696e\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\able\.gradle\caches\transforms-2\files-2.1\0bd093e06345767e946115a2a7923903\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\able\.gradle\caches\transforms-2\files-2.1\d8920e09045f16953a22b528d3fee195\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\6a72753c8ae08ea2f91003364963f946\AndroidManifest.xml:17:1-22:12
-INJECTED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:2:1-96:12
-INJECTED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:2:1-96:12
-INJECTED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:2:1-96:12
+ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:2:1-71:12
+INJECTED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:2:1-71:12
+INJECTED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:2:1-71:12
+INJECTED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:2:1-71:12
+INJECTED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:2:1-71:12
+INJECTED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:2:1-71:12
+INJECTED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:2:1-71:12
 	package
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:4:5-36
-		INJECTED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml
-		INJECTED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml
+		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:3:5-36
+		INJECTED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml
+		INJECTED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml
 	android:versionName
-		INJECTED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:2:1-96:12
-		INJECTED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml
-	xmlns:tools
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:3:5-51
+		INJECTED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml
+		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:2:1-71:12
+		INJECTED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml
 	android:versionCode
-		INJECTED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:2:1-96:12
-		INJECTED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml
+		INJECTED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml
+		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:2:1-71:12
+		INJECTED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:2:11-69
 application
-ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:6:5-95:19
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\1643d35a0b2e4c33cc75b7fe7f88db89\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\1643d35a0b2e4c33cc75b7fe7f88db89\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\087f93e9a025f882cd5f92bfeb7b32d3\AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\087f93e9a025f882cd5f92bfeb7b32d3\AndroidManifest.xml:22:5-23:19
-	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\1643d35a0b2e4c33cc75b7fe7f88db89\AndroidManifest.xml:22:18-91
-	android:label
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:9:9-31
-	tools:ignore
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:10:9-60
-	android:icon
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:7:9-38
-	android:name
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:8:9-33
+ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:5:5-70:19
 activity#com.iflytek.voicedemo.MainActivity
-ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:11:9-22:20
+ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:6:9-11:51
 	android:screenOrientation
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:16:13-49
+		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:11:13-49
 	android:label
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:15:13-35
+		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:10:13-35
 	android:configChanges
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:13:13-133
+		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:8:13-133
 	android:icon
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:14:13-42
+		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:9:13-42
 	android:name
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:12:13-62
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:17:13-21:29
-action#android.intent.action.MAIN
-ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:18:17-69
-	android:name
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:18:25-66
-category#android.intent.category.LAUNCHER
-ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:20:17-77
-	android:name
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:20:27-74
+		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:7:13-62
 activity#com.iflytek.mscspeech.setting.TtsSettings
-ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:23:9-24:20
+ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:12:9-77
 	android:name
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:23:19-75
+		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:12:19-75
 activity#com.iflytek.mscspeech.setting.IatSettings
-ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:25:9-26:20
+ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:13:9-77
 	android:name
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:25:19-75
+		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:13:19-75
 activity#com.iflytek.voicedemo.IatDemo
-ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:27:9-31:20
+ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:14:9-17:51
 	android:screenOrientation
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:30:13-49
+		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:17:13-49
 	android:configChanges
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:29:13-133
+		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:16:13-133
 	android:name
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:28:13-57
+		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:15:13-57
 activity#com.iflytek.voicedemo.AsrDemo
-ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:32:9-36:20
+ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:18:9-21:51
 	android:screenOrientation
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:35:13-49
+		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:21:13-49
 	android:configChanges
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:34:13-133
+		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:20:13-133
 	android:name
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:33:13-57
+		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:19:13-57
 activity#com.iflytek.voicedemo.TtsDemo
-ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:37:9-41:20
+ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:22:9-25:51
 	android:screenOrientation
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:40:13-49
+		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:25:13-49
 	android:configChanges
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:39:13-133
+		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:24:13-133
 	android:name
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:38:13-57
+		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:23:13-57
 activity#com.iflytek.voicedemo.IseDemo
-ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:42:9-46:20
+ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:26:9-29:51
 	android:screenOrientation
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:45:13-49
+		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:29:13-49
 	android:configChanges
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:44:13-133
+		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:28:13-133
 	android:name
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:43:13-57
+		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:27:13-57
 activity#com.iflytek.voicedemo.vocalverify.VocalVerifyDemo
-ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:47:9-51:20
+ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:30:9-33:51
 	android:screenOrientation
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:50:13-49
+		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:33:13-49
 	android:configChanges
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:49:13-133
+		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:32:13-133
 	android:name
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:48:13-77
+		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:31:13-77
 activity#com.iflytek.voicedemo.faceonline.OnlineFaceDemo
-ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:52:9-56:20
+ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:34:9-37:51
 	android:screenOrientation
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:55:13-49
+		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:37:13-49
 	android:configChanges
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:54:13-133
+		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:36:13-133
 	android:name
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:53:13-75
+		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:35:13-75
 activity#com.iflytek.voicedemo.IdentifyGroup.GroupManagerActivity
-ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:57:9-61:20
+ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:38:9-41:51
 	android:screenOrientation
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:60:13-49
+		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:41:13-49
 	android:configChanges
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:59:13-133
+		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:40:13-133
 	android:name
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:58:13-84
+		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:39:13-84
 activity#com.iflytek.voicedemo.IdentifyGroup.FaceIdentifyActivity
-ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:62:9-66:20
+ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:42:9-45:51
 	android:screenOrientation
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:65:13-49
+		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:45:13-49
 	android:configChanges
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:64:13-133
+		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:44:13-133
 	android:name
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:63:13-84
+		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:43:13-84
 activity#com.iflytek.voicedemo.IdentifyGroup.VocalIdentifyActivity
-ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:67:9-71:20
+ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:46:9-49:51
 	android:screenOrientation
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:70:13-49
+		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:49:13-49
 	android:configChanges
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:69:13-133
+		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:48:13-133
 	android:name
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:68:13-85
+		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:47:13-85
 activity#com.iflytek.voicedemo.IdentifyGroup.ResultIdentifyActivity
-ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:72:9-76:20
+ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:50:9-53:51
 	android:screenOrientation
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:75:13-49
+		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:53:13-49
 	android:configChanges
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:74:13-133
+		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:52:13-133
 	android:name
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:73:13-86
+		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:51:13-86
 activity#com.iflytek.speech.setting.IseSettings
-ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:77:9-81:20
+ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:54:9-57:51
 	android:screenOrientation
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:80:13-49
+		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:57:13-49
 	android:configChanges
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:79:13-133
+		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:56:13-133
 	android:name
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:78:13-66
+		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:55:13-66
 activity#com.iflytek.speech.setting.UrlSettings
-ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:82:9-86:20
+ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:58:9-61:51
 	android:screenOrientation
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:85:13-49
+		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:61:13-49
 	android:configChanges
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:84:13-133
+		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:60:13-133
 	android:name
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:83:13-66
+		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:59:13-66
 meta-data#IFLYTEK_APPKEY
-ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:88:9-90:42
+ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:63:9-65:42
 	android:value
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:90:13-29
+		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:65:13-29
 	android:name
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:89:13-42
+		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:64:13-42
 meta-data#IFLYTEK_CHANNEL
-ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:91:9-93:44
+ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:66:9-68:44
 	android:value
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:93:13-41
+		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:68:13-41
 	android:name
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml:92:13-43
+		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:67:13-43
 uses-sdk
-INJECTED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml
-INJECTED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\48f1f8bbce00518c521e3efe50ea75da\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\48f1f8bbce00518c521e3efe50ea75da\AndroidManifest.xml:20:5-44
-MERGED from [:base] D:\Users\able\AndroidStudioProjects\MyTts\base\build\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-10:41
-MERGED from [:base] D:\Users\able\AndroidStudioProjects\MyTts\base\build\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\81cd7883205592b4223f78c2cf4916c3\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\81cd7883205592b4223f78c2cf4916c3\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\3411575a141df499e4177e9bab5de589\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\3411575a141df499e4177e9bab5de589\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\17d415593a2c67315be58f8fb31f6a7c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\17d415593a2c67315be58f8fb31f6a7c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\9aace60899a6cba28461971478080995\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\9aace60899a6cba28461971478080995\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\14e20de5db98a2d11790ab87c20593d8\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\14e20de5db98a2d11790ab87c20593d8\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\86cfcfadcb350824c24489648bea3242\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\86cfcfadcb350824c24489648bea3242\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\99eb71cb15e7ebec0534406214dbbb8c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\99eb71cb15e7ebec0534406214dbbb8c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\057c865b4e6a0b5958ae30a76f0afd40\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\057c865b4e6a0b5958ae30a76f0afd40\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\c267d522145897697c96c1be334ced70\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\c267d522145897697c96c1be334ced70\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\85646bad99582551caea1272cc339fa2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\85646bad99582551caea1272cc339fa2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\918bf40f5356b34bf25bafdea603faf9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\918bf40f5356b34bf25bafdea603faf9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\58842e3341d8caf270c42a30ba2a90ea\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\58842e3341d8caf270c42a30ba2a90ea\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\00e7fc69f92b195bce620c9f6f4d1c26\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\00e7fc69f92b195bce620c9f6f4d1c26\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\1643d35a0b2e4c33cc75b7fe7f88db89\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\1643d35a0b2e4c33cc75b7fe7f88db89\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\087f93e9a025f882cd5f92bfeb7b32d3\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\087f93e9a025f882cd5f92bfeb7b32d3\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\5480d0576a1a014def6197c9116ace37\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\5480d0576a1a014def6197c9116ace37\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\able\.gradle\caches\transforms-2\files-2.1\0e1cd016a016e70fdfa55deddb4ba4c8\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\able\.gradle\caches\transforms-2\files-2.1\0e1cd016a016e70fdfa55deddb4ba4c8\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\46444661052aca617e8e57f38e120192\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\46444661052aca617e8e57f38e120192\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\93a1d01682b57bcf6ce6ed26646b9dd0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\93a1d01682b57bcf6ce6ed26646b9dd0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\8678bc3e659fe57bcd020a969c982345\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\8678bc3e659fe57bcd020a969c982345\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\able\.gradle\caches\transforms-2\files-2.1\c09154d050dde98a468d12aee4880437\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\able\.gradle\caches\transforms-2\files-2.1\c09154d050dde98a468d12aee4880437\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\able\.gradle\caches\transforms-2\files-2.1\64f80e4df7558227e61534f32b0c696e\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\able\.gradle\caches\transforms-2\files-2.1\64f80e4df7558227e61534f32b0c696e\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\able\.gradle\caches\transforms-2\files-2.1\0bd093e06345767e946115a2a7923903\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\able\.gradle\caches\transforms-2\files-2.1\0bd093e06345767e946115a2a7923903\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\able\.gradle\caches\transforms-2\files-2.1\d8920e09045f16953a22b528d3fee195\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\able\.gradle\caches\transforms-2\files-2.1\d8920e09045f16953a22b528d3fee195\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\6a72753c8ae08ea2f91003364963f946\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\able\.gradle\caches\transforms-2\files-2.1\6a72753c8ae08ea2f91003364963f946\AndroidManifest.xml:20:5-44
-INJECTED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml
-INJECTED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml
+INJECTED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml
+INJECTED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml
+INJECTED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml
+INJECTED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml
-		INJECTED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml
+		INJECTED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml
+		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml
+		INJECTED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml
-		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml
-		INJECTED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\AndroidManifest.xml
-uses-permission#android.permission.RECORD_AUDIO
-ADDED from [:base] D:\Users\able\AndroidStudioProjects\MyTts\base\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-71
-	android:name
-		ADDED from [:base] D:\Users\able\AndroidStudioProjects\MyTts\base\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-68
-uses-permission#android.permission.INTERNET
-ADDED from [:base] D:\Users\able\AndroidStudioProjects\MyTts\base\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-67
-	android:name
-		ADDED from [:base] D:\Users\able\AndroidStudioProjects\MyTts\base\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-64
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [:base] D:\Users\able\AndroidStudioProjects\MyTts\base\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-79
-	android:name
-		ADDED from [:base] D:\Users\able\AndroidStudioProjects\MyTts\base\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:22-76
-uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from [:base] D:\Users\able\AndroidStudioProjects\MyTts\base\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-76
-	android:name
-		ADDED from [:base] D:\Users\able\AndroidStudioProjects\MyTts\base\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:22-73
-uses-permission#android.permission.CHANGE_NETWORK_STATE
-ADDED from [:base] D:\Users\able\AndroidStudioProjects\MyTts\base\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:5-79
-	android:name
-		ADDED from [:base] D:\Users\able\AndroidStudioProjects\MyTts\base\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:22-76
-uses-permission#android.permission.READ_PHONE_STATE
-ADDED from [:base] D:\Users\able\AndroidStudioProjects\MyTts\base\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:5-75
-	android:name
-		ADDED from [:base] D:\Users\able\AndroidStudioProjects\MyTts\base\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:22-72
-uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from [:base] D:\Users\able\AndroidStudioProjects\MyTts\base\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:5-79
-	android:name
-		ADDED from [:base] D:\Users\able\AndroidStudioProjects\MyTts\base\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:22-76
-uses-permission#android.permission.READ_CONTACTS
-ADDED from [:base] D:\Users\able\AndroidStudioProjects\MyTts\base\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:5-72
-	android:name
-		ADDED from [:base] D:\Users\able\AndroidStudioProjects\MyTts\base\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:22-69
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from [:base] D:\Users\able\AndroidStudioProjects\MyTts\base\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:5-81
-	android:name
-		ADDED from [:base] D:\Users\able\AndroidStudioProjects\MyTts\base\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:22-78
-uses-permission#android.permission.WRITE_SETTINGS
-ADDED from [:base] D:\Users\able\AndroidStudioProjects\MyTts\base\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:5-23:47
-	tools:ignore
-		ADDED from [:base] D:\Users\able\AndroidStudioProjects\MyTts\base\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:9-44
-	android:name
-		ADDED from [:base] D:\Users\able\AndroidStudioProjects\MyTts\base\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:9-57
-uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from [:base] D:\Users\able\AndroidStudioProjects\MyTts\base\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:5-80
-	android:name
-		ADDED from [:base] D:\Users\able\AndroidStudioProjects\MyTts\base\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:22-77
-uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
-ADDED from [:base] D:\Users\able\AndroidStudioProjects\MyTts\base\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:5-80
-	android:name
-		ADDED from [:base] D:\Users\able\AndroidStudioProjects\MyTts\base\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:22-77
-uses-permission#android.permission.BLUETOOTH
-ADDED from [:base] D:\Users\able\AndroidStudioProjects\MyTts\base\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:5-68
-	android:name
-		ADDED from [:base] D:\Users\able\AndroidStudioProjects\MyTts\base\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:22-65
-uses-permission#android.permission.BROADCAST_STICKY
-ADDED from [:base] D:\Users\able\AndroidStudioProjects\MyTts\base\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:5-75
-	android:name
-		ADDED from [:base] D:\Users\able\AndroidStudioProjects\MyTts\base\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:22-72
-uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from [:base] D:\Users\able\AndroidStudioProjects\MyTts\base\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:5-81
-	android:name
-		ADDED from [:base] D:\Users\able\AndroidStudioProjects\MyTts\base\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:22-78
+		INJECTED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml
+		ADDED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml
+		INJECTED from D:\Users\able\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml

@@ -4,7 +4,7 @@
     package="com.iflytek.mscv5plusdemo">
 
     <application
-        android:name="SpeechApp"
+        android:name="com.example.base.BaseApplication"
         android:icon="@drawable/icon"
         android:label="讯飞语音示例v5+"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">

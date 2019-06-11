@@ -45,5 +45,5 @@ dependencies {
     def dependencies = rootProject.ext.dependencies
     implementation dependencies["appcompat-v7"]
 
-    implementation project(':base')
+    api project(':base')
 }

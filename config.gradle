@@ -1,8 +1,8 @@
 ext {
 
     //模块开关，false:作为Lib组件存在， true:作为application存在
-    isSpeechApplication = true
-    isMscApplication = true
+    isSpeechApplication = false
+    isMscApplication = false
 
     android = [
             compileSdkVersion: 28,
