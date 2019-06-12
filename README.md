@@ -42,7 +42,22 @@ private void modulesApplicationInit(){
 }
 ```
 
+# 权限问题
 
+``` 
+java.lang.SecurityException: 
+com.example.mytts was not granted  this permission: 
+android.permission.WRITE_SETTINGS.
+```
+
+在这里，Write_setting有个坑，申请了write_setting权限后，也出现闪退的情况，异常为：
+java.lang.IllegalArgumentException: You cannot keep your settings in the secure settings.
+
+在android 6.0及以后，WRITE_SETTINGS权限的保护等级已经由原来的dangerous升级为signature，
+这意味着我们的APP需要用系统签名或者成为系统预装软件才能够申请此权限，
+并且还需要提示用户跳转到修改系统的设置界面去授予此权限
+
+也就是说，要想申请该权限，apk必须要打包，签名打包。要签名打包，最喜欢的debug模式是不能申请该权限。
 
 
 

@@ -61,7 +61,7 @@ public class TtsDemo extends Activity implements OnClickListener {
 		super.onCreate(savedInstanceState);
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.ttsdemo);
-		texts = getResources().getString(R.string.text_tts_source);
+		texts = getResources().getString(R.string.text_tts_source1);
 		initLayout();
 		// 初始化合成对象
 		mTts = SpeechSynthesizer.createSynthesizer(TtsDemo.this, mTtsInitListener);

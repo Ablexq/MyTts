@@ -9,8 +9,8 @@
             android:icon="@drawable/icon"
             android:label="讯飞语音示例"
             android:screenOrientation="portrait"/>
-        <activity android:name="com.iflytek.mscspeech.setting.TtsSettings"/>
-        <activity android:name="com.iflytek.mscspeech.setting.IatSettings"/>
+        <activity android:name="com.iflytek.speech.setting.TtsSettings"/>
+        <activity android:name="com.iflytek.speech.setting.IatSettings"/>
         <activity
             android:name="com.iflytek.voicedemo.IatDemo"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"

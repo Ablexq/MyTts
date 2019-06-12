@@ -43,12 +43,14 @@ public class MainActivity extends Activity implements OnClickListener {
 		super.onCreate(savedInstanceState);
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.main);
+
 		edit_text = (TextView) findViewById(R.id.edit_text);
 		StringBuffer buf = new StringBuffer();
 		buf.append("当前APPID为：");
 		buf.append(getString(R.string.app_id)+"\n");
 		buf.append(getString(R.string.example_explain));
 		edit_text.setText(buf);
+
 		requestPermissions();
 		mToast = Toast.makeText(this, "", Toast.LENGTH_SHORT);
 		//mscInit(null);//采用sdk默认url
