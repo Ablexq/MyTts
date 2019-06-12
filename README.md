@@ -1,4 +1,21 @@
 
+# 科大讯飞语音合成
+
+SDK在集成开发测试阶段服务量限制为最高500次/每日，完成提额申请或商务合作后可以解除。
+
+[语音合成](https://doc.xfyun.cn/msc_android/%E8%AF%AD%E9%9F%B3%E5%90%88%E6%88%90.html)
+
+[Android_SDK相关问题和答案汇总](http://bbs.xfyun.cn/forum.php?mod=viewthread&tid=24442&extra=page%3D1)
+
+![](imgs/在线合成语音asset.png)
+
+![](imgs/在线合成语音lib.png)
+
+![](imgs/离线合成语音asset.png)
+
+![](imgs/离线合成语音lib.png)
+
+
 # 模块化多application：
 
 参考：
