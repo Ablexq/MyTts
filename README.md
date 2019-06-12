@@ -33,6 +33,81 @@ SDK在集成开发测试阶段服务量限制为最高500次/每日，完成提�
 
 ![](imgs/离线合成语音lib.png)
 
+# debug 与 release 
+
+不同包名可同时安装：
+
+不同应用名
+
+不同图标
+
+``` 
+buildTypes {
+    release {
+        minifyEnabled false
+        proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        //修改
+        signingConfig signingConfigs.release
+
+        applicationIdSuffix ".release"
+        resValue "string", "app_name", "@string/app_name_release"
+        manifestPlaceholders = [
+                //这里也是在AndroidManifest.xml中配置的app图标，
+                // 同样在这里写了了不同的资源文件，从而实现了动态配置
+                app_icon: "@mipmap/logo",
+                app_roundIcon: "@mipmap/logo",
+//                    app_name: "@string/app_name_release"
+        ]
+    }
+    debug {
+        minifyEnabled false
+        proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        //修改
+        signingConfig signingConfigs.debug
+
+        applicationIdSuffix ".debug"
+        resValue "string", "app_name", "@string/app_name_debug"
+        manifestPlaceholders = [
+                //这里也是在AndroidManifest.xml中配置的app图标，
+                // 同样在这里写了了不同的资源文件，从而实现了动态配置
+                app_icon: "@mipmap/ic_launcher",
+                app_roundIcon: "@mipmap/ic_launcher",
+//                    app_name: "@string/app_name_debug"
+        ]
+    }
+}
+
+```
+strings.xml:
+``` 
+<resources>
+    <!--<string name="app_name">MyTts</string>-->
+
+    <string name="app_name_release">MyTts_Release</string>
+    <string name="app_name_debug">MyTts_Debug</string>
+</resources>
+```
+
+AndroidManifest.xml:
+``` 
+    <application
+        android:name="com.example.base.BaseApplication"
+        android:allowBackup="true"
+        android:icon="${app_icon}"
+        android:label="@string/app_name"
+        android:roundIcon="${app_roundIcon}"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+```
 
 # 模块化多application：
 

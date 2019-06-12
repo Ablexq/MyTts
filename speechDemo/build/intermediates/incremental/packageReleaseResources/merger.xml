@@ -109,7 +109,7 @@
         <item>http://bj.voicecloud.cn/msp.do</item>
         <item>http://gz.voicecloud.cn/msp.do</item>
         <item>http://dx.xf-yun.com/msp.do</item>
-    </string-array></file><file path="D:\Users\Administrator\AndroidStudioProjects\MyTts\speechDemo\src\main\res\values\styles.xml" qualifiers=""><style name="dialog" parent="@android:style/Theme.Dialog">
+    </string-array><string name="text_tts_source1">您已确认发车，现在前往第1个站点X接乘客，有N名乘客。您已到达Y站点，有m名乘客需要检票上车…</string></file><file path="D:\Users\Administrator\AndroidStudioProjects\MyTts\speechDemo\src\main\res\values\styles.xml" qualifiers=""><style name="dialog" parent="@android:style/Theme.Dialog">
   <item name="android:windowFrame">@null</item>
   <item name="android:windowIsFloating">true</item>
   <item name="android:windowIsTranslucent">true</item>

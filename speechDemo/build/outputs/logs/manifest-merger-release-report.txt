@@ -35,14 +35,14 @@ ADDED from D:\Users\Administrator\AndroidStudioProjects\MyTts\speechDemo\src\mai
 		ADDED from D:\Users\Administrator\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:9:13-42
 	android:name
 		ADDED from D:\Users\Administrator\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:7:13-62
-activity#com.iflytek.mscspeech.setting.TtsSettings
-ADDED from D:\Users\Administrator\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:12:9-77
+activity#com.iflytek.speech.setting.TtsSettings
+ADDED from D:\Users\Administrator\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:12:9-74
 	android:name
-		ADDED from D:\Users\Administrator\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:12:19-75
-activity#com.iflytek.mscspeech.setting.IatSettings
-ADDED from D:\Users\Administrator\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:13:9-77
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:12:19-72
+activity#com.iflytek.speech.setting.IatSettings
+ADDED from D:\Users\Administrator\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:13:9-74
 	android:name
-		ADDED from D:\Users\Administrator\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:13:19-75
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:13:19-72
 activity#com.iflytek.voicedemo.IatDemo
 ADDED from D:\Users\Administrator\AndroidStudioProjects\MyTts\speechDemo\src\main\module\AndroidManifest.xml:14:9-17:51
 	android:screenOrientation

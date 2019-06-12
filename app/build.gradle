@@ -39,12 +39,32 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             //修改
             signingConfig signingConfigs.release
+
+            applicationIdSuffix ".release"
+            resValue "string", "app_name", "@string/app_name_release"
+            manifestPlaceholders = [
+                    //这里也是在AndroidManifest.xml中配置的app图标，
+                    // 同样在这里写了了不同的资源文件，从而实现了动态配置
+                    app_icon: "@mipmap/logo",
+                    app_roundIcon: "@mipmap/logo",
+//                    app_name: "@string/app_name_release"
+            ]
         }
         debug {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             //修改
             signingConfig signingConfigs.debug
+
+            applicationIdSuffix ".debug"
+            resValue "string", "app_name", "@string/app_name_debug"
+            manifestPlaceholders = [
+                    //这里也是在AndroidManifest.xml中配置的app图标，
+                    // 同样在这里写了了不同的资源文件，从而实现了动态配置
+                    app_icon: "@mipmap/ic_launcher",
+                    app_roundIcon: "@mipmap/ic_launcher",
+//                    app_name: "@string/app_name_debug"
+            ]
         }
     }
 
